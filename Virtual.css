@@ -1,0 +1,267 @@
+*{
+	padding:0;
+	margin: 0;
+}
+
+
+
+nav{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+
+}
+nav #logo h1{
+	color: white;
+}
+
+
+
+.container{
+	width: 100%;
+}
+
+
+
+
+
+nav #menu a{
+	margin: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+
+
+#bg{
+
+width: 100%;
+background-image: url('desktop/image-hero.jpg');
+background-size: cover;
+height: 600px;
+}
+
+#content{
+	border: 0.2px solid white;
+	width: 350px;
+	position: relative;
+	top:130px;
+	left: 160px;
+
+}
+#content h2{
+	color: white;
+	padding: 20px;
+	text-transform: uppercase;
+	font-size: 35px;
+
+}
+
+
+
+.subcontainer{
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 70px;
+
+
+}
+
+
+#flex{
+	display: flex;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+
+}
+
+#left{
+	width: 140%;
+	margin-left: 50px;
+}
+#left img{
+	width: 100%;
+}
+
+
+#right{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-left: 40px;
+
+}
+#right h3{
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+#right p{
+	text-align: justify;
+}
+
+
+#text{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	align-items: flex-start;
+}
+#text p{
+	font-size: 25px;
+
+}
+#text button{
+	padding: 15px;
+	outline: none;
+	border: none;
+	border-radius: 25px;
+}
+
+
+
+
+#grid{
+	width: 80%;
+	margin-right: auto;
+	margin-left: 120px;
+	margin-bottom: 100px;
+	display: grid;
+	grid-template-columns: repeat(4,200px);
+	grid-template-rows: 320px 320px;
+	
+	grid-gap: 25px;
+
+}
+#grid div:nth-child(1){
+	background-image: url('desktop/image-soccer-team.jpg');
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+#grid div:nth-child(2){
+	background-image: url('desktop/image-pocket-borealis.jpg');
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+#grid div:nth-child(3){
+	background-image: url('desktop/image-night-arcade.jpg');
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+#grid div:nth-child(4){
+	background-image: url('desktop/image-grid.jpg');
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+#grid div:nth-child(5){
+	background-image: url('desktop/image-fisheye.jpg');
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+#grid div:nth-child(6){
+	background-image: url('desktop/image-from-above.jpg');
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	color: white;
+	text-align: center;
+	padding: 10px;
+
+}
+#grid div:nth-child(7){
+	background-image: url('desktop/image-curiosity.jpg');
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+#grid div:nth-child(8){
+	background-image: url('desktop/image-deep-earth.jpg');
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+
+
+
+footer{
+	background-color: black;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+
+footer div:first-child{
+	padding: 40px;
+	display: flex;
+	
+	justify-content: center;
+
+}
+
+footer div:last-child{
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	
+
+}
+
+div img{
+	margin: 10px;
+}
+
+
+div>h1{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+ul{
+	display: flex;
+}
+ul li{
+	list-style: none;
+	margin: 10px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+}
+
